@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 
 function ContactFormSponsors() {
     const { t } = useTranslation();
-    const [state, handleSubmit] = useForm("mvononyz");
+    const [state, handleSubmit] = useForm("mnqykokr");
 
     useEffect(() => {
         if (state.succeeded) {
