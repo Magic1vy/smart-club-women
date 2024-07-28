@@ -26,7 +26,7 @@ const Sponsors = () => {
         <section className={styles.section}>
             <Text 
                 type='h1' 
-                size='xxl' 
+                size='lg' 
                 className={styles.heading}
             >
                 {t('Sponsors Page Heading')}
