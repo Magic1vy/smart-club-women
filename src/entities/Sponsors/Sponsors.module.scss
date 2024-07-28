@@ -1,0 +1,27 @@
+@use '../../app/styles/vars.scss' as * ;
+@use '../../app/styles/media-queries.scss' as * ;
+@use '../../app/styles/index.scss' as *;
+
+.container{
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.sponsorImg{
+    max-height: 100px;
+    width: auto;
+}
+.btnStatistic{
+    margin: 80px 0;
+}
+.list{
+    margin: 10px 0 20px 10px;
+}
+
+@include laptop{
+    .sponsorImg{
+        max-height: 170px;
+    }
+    .btnStatistic{
+        margin: 150px 0;
+    }
+}

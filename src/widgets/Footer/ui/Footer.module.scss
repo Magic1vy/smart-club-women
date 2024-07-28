@@ -1,0 +1,43 @@
+@use '../../../app/styles/index.scss' as *;
+@use '../../../app/styles/media-queries.scss' as *;
+@use '../../../app/styles/vars.scss' as *;
+
+.footer{
+    border-top: 1px solid #000000;
+}
+.logo{
+    height: 100px;
+    cursor: pointer;
+}
+.span, .link{
+    margin: 0 4px;
+}
+.footerContainer{
+    padding: 20px 10px;
+}
+.rights{
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    border-top: 1px solid #000000;
+}
+@include tablet{
+    .footerContainer{
+        padding: 30px 80px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@include laptop{
+    .footerContainer{
+        padding: 30px 120px;
+    }
+    .socialMedia{
+        flex-direction: row;
+    }
+}
+@include desktop{
+    .footerContainer{
+        padding: 30px 360px;
+    }
+}

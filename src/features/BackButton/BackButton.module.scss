@@ -1,0 +1,22 @@
+@use '../../app/styles/index.scss' as *;
+@use '../../app/styles/media-queries.scss' as *;
+@use '../../app/styles/vars.scss' as *;
+
+.backButton{
+    margin: 30px 10px;
+}
+@include tablet{
+    .backButton{
+        margin: 30px 80px;
+    }
+}
+@include laptop{
+    .backButton{
+        margin: 30px 120px;
+    }
+}
+@include desktop{
+    .backButton{
+        margin: 30px 360px;
+    }
+}

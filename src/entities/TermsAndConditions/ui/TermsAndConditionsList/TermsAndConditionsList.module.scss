@@ -1,0 +1,13 @@
+@use '../../../../app/styles/index.scss' as *;
+@use '../../../../app/styles/media-queries.scss' as *;
+@use '../../../../app/styles/vars.scss' as *;
+
+.subheading{
+    margin: 20px 0 10px 0;
+}
+.lastUpdate{
+    margin: 20px 0;
+}
+.text{
+    margin-top: 10px;
+}

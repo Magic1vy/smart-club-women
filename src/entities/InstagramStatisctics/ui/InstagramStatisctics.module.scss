@@ -1,0 +1,25 @@
+@use '../../../app/styles/index.scss' as *;
+@use '../../../app/styles/media-queries.scss' as *;
+@use '../../../app/styles/vars.scss' as *;
+
+.imgStatistic{
+    max-width: 300px;
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+.closeBtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+@include laptop{
+    .wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,0 +1,32 @@
+@use '../../../app/styles/index.scss' as *;
+@use '../../../app/styles/media-queries.scss' as *;
+@use '../../../app/styles/vars.scss' as *;
+
+
+.slideshow  {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+.prevSlideshow, .nextSlideshow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    opacity: 0.3;
+    height: 100%;
+    width: 30px;
+}
+.prevSlideshow{
+    left: 0;
+}
+.nextSlideshow{
+    right: 0;
+}
+.prevSlideshow, .nextSlideshow{
+    opacity: .9;
+}

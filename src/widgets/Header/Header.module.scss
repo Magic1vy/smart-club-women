@@ -1,0 +1,25 @@
+@use '../../app/styles/index.scss' as *;
+@use '../../app/styles//media-queries.scss' as *;
+@use '../../app/styles/vars.scss' as *;
+
+.header{
+    display: flex;
+    justify-content: end;
+    padding: var(--padding-mobile);
+}
+
+@include tablet {
+    .header{
+        padding: var(--padding-tablet);
+    }
+}
+@include laptop {
+    .header{
+        padding: var(--padding-laptop);
+    }
+}
+@include desktop {
+    .header{
+        padding: var(--padding-desktop);
+    }
+}

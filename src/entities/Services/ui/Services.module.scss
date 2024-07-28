@@ -1,0 +1,33 @@
+@use '../../../app/styles/index.scss' as *;
+@use '../../../app/styles/media-queries.scss' as *;
+@use '../../../app/styles/vars.scss' as *;
+
+.imgService{
+    width: 100%;
+}
+.list{
+    list-style-position: inside;
+    margin: 10px;
+
+    li{
+        padding-left: 20px;
+    }
+}
+.text{
+    text-align: left;
+}
+.btn{
+    margin: 20px auto;
+}
+
+@include laptop{
+    .section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .imgService{
+        max-width: 550px;
+    }
+    
+}

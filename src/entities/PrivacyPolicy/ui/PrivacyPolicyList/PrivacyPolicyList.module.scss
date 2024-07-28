@@ -1,0 +1,16 @@
+@use '../../../../app/styles/index.scss' as *;
+@use '../../../../app/styles/media-queries.scss' as *;
+@use '../../../../app/styles/vars.scss' as *;
+
+.subheading{
+    margin: 20px 0 10px 0;
+}
+.list{
+    padding-left: 30px;
+
+    li{
+        
+        list-style-position: inside;
+        list-style:lower-latin;
+    }
+}

@@ -1,0 +1,20 @@
+@use '../../app/styles/vars.scss' as * ;
+@use '../../app/styles/media-queries.scss' as * ;
+@use '../../app/styles/index.scss' as *;
+
+.aboutImage{
+    width: 100%;
+}
+.link{
+    margin: 0 4px;
+}
+
+@include laptop {
+    .container{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .picture{
+        max-width: 600px;
+    }
+}

@@ -1,0 +1,16 @@
+@use '../../app/styles/index.scss' as *;
+@use '../../app/styles/media-queries.scss' as *;
+@use '../../app/styles/vars.scss' as *;
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 250px;
+}
+
+// @include laptop{
+//     .form{
+//         max-width: 500px;
+//     }
+// }

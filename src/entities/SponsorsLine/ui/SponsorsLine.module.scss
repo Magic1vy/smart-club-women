@@ -1,0 +1,43 @@
+@use '../../../app/styles/index.scss' as *;
+@use '../../../app/styles/media-queries.scss' as *;
+@use '../../../app/styles/vars.scss' as *;
+
+.section{
+    margin-bottom: 0;
+}
+.imageScrollContainer {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.imageScrollContent{
+    width: fit-content;
+    animation: scroll 50s linear infinite;
+}
+.imageScrollContent > * {
+    margin: 7px;
+    flex: 0 0 auto;
+}
+.sponsorImg {
+    height: 100px;
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@include laptop{
+    .imgSponsor{
+        margin: 10px;
+    }
+    .sponsorImg{
+        height: 140px;
+        width: 100%;
+    }
+}

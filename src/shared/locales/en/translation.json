@@ -1,0 +1,217 @@
+{
+    "Language": "RU",
+
+    "Hero Heading": "Smart Club",
+    "Hero SubHeading 1": "is a place where you can find",
+    "Hero SubHeading 2": "empowerment — friends — a lot of fun",
+
+    "About": "About",
+    "About Heading": "About the club",
+    "About 1": "Smart Club Women was established in 2018 in Toronto and has since welcomed over 700 women to its events. We tailor our events around personal growth, business, and wellness, creating a space to support each other, share our stories, and lift each other. Each event is crafted to ensure every woman feels heard, valued, and celebrated.",
+    "About 2":"Ready to network, meet new friends, learn something new, and have a blast? Check our",
+    "About 3": "feed and DM us to book an event.",
+
+    "Vision": "Vision",
+    "Vision Text": "Our vision is to create a vibrant community of women who come together to enjoy life, build connections, and create unforgettable memories. Through fun and engaging events, we foster belonging, promote positive relationships, and inspire fulfilling lives. We offer diverse activities and experiences to cater to our members' interests and passions, bringing joy, happiness, and laughter to all who join us.",
+
+    "Mission": "Mission",
+    "Mission Text": "Our mission is to empower and support women by creating a community where members can connect, learn, and grow together. We aim to provide a safe and inclusive space where women can share their experiences, exchange knowledge and skills, and inspire each other to achieve their personal and professional goals.",
+
+    "Meet Founder": "Meet the founder",
+    "Mila Bogorodovskaya": "Mila Bogorodovskaya",
+    "Founder Text 1": "Mila is a coach, founder of Smart Club Women, and an online educator with over 10,000 students worldwide. She recognized with a nomination for the prestigious RBC Canadian Women Entrepreneur Awards presented by Women of Influence and got nominated for Women Empowerment Awards presented by Rogers in the leadership category. Mila holds an MSc in Mathematics and has traveled across 17 countries as an international model, appearing on over 20 magazine covers, including Vogue Italy, Women's Health, and L'Officiel. Mila's mission is to empower women by fostering connections, facilitating learning, and nurturing growth.She created social media agency",
+    "Founder Text 2": "which helps to build your social media presence and increase sales through your platforms.",
+    
+    
+    "Members": "Members",
+    "Members Heading": "Our club members",
+    "Members Text": "Our events welcome women from diverse backgrounds who effortlessly balance careers, family, and passions. At our gatherings, they foster warmth and friendship, sharing stories and ideas while building meaningful relationships. Each event offers opportunities for learning, from health to fashion. Beyond personal growth, they enjoy exploring and creating memories, embodying our community's adventurous spirit.",
+    "Become a Member": "Become a Member",
+
+
+    "Our Services": "Our Services",
+    "Services Text": "We provide a wide range of services:",
+    "Services List 1": "Social media management",
+    "Services List 2": "Video and photo production",
+    "Services List 3": "Speaking opportunities at @smartclub_women and other events",
+    "Services List 4": "Collaboration with magazines",
+    "Services CTA" : "Would you like to schedule a complimentary 15-minute Discovery call?",
+    "Services Btn": "Let's Do this",
+
+
+
+    "Reviews": "Reviews",
+    "Review Name 1": "Anna",
+    "Review Text 1": "I recently joined the Smart Club Women and it has been a fantastic experience! The community of women is so welcoming and supportive, and there are so many interesting events and activities to participate in. I've made some great friends and have learned so much from the talented and accomplished women in this group. Highly recommend joining!",
+    "Review Name 2": "Maria",
+    "Review Text 2": "I've been a member of the SCW for several years now and it just keeps getting better and better. The programs and speakers are always top-notch and I appreciate the focus on personal and professional development.",
+    "Review Name 3": "Olena",
+    "Review Text 3": "I would highly recommend SCW to any woman looking to connect with other like-minded individuals.",
+    "Review Name 4": "Aliona",
+    "Review Text 4": "Smart Club is an amazing organization that truly empowers women. I've attended several events and have always felt inspired and encouraged by the other members. The networking opportunities are also fantastic and have helped me grow both personally and professionally.",
+    "Review Name 5": "Katya",
+    "Review Text 5": "I was hesitant to join the Woman's Club at first, but I'm so glad I did. The members are all so supportive and welcoming, and it's been great to connect with other women who share my interests and values.",
+    "Review Name 6": "Julia Aleuskaya",
+    "Review Text 6": "I joined SmartClub during pandemic and all those online events kept me sane. After pandemic it became even better because I was able to meet so many interesting and talented girls in person, have fun and make connections. Mila is a very creative organizer. Not only the events are fun and useful but you also explore different locations in the city. I've recommended it to some of my friends and everyone who joined also enjoys it.",
+
+    "Sponsors": "Sponsors",
+    "Sponsors Heading": "Some of our sponsors and speakers",
+    "Sponsors Btn": "Become a sponsor",
+
+    "Contacts": "Contacts",
+    "Your Full Name": "Your Full Name:",
+    "Your Instagram": "Your Instagram:",
+    "Your Email": "Your Email:",
+    "Your Comments": "Your Comments:",
+    "Submit": "Submit",
+    "Submitting": "Submitting...",
+    "Success message": "Thank you for your request! We will get back to you soon.",
+
+    "Why do you want to join the club?": "Why do you want to join the club?",
+    "Tell about yourself": "Tell about yourself:",
+
+
+    "Your Phone Number": "Your Phone Number:",
+    "Your Website": "Your Website:",
+    "How did you find out about us?": "How did you find out about us?",
+    "What is your biggest challenge with social media?": "What is your biggest challenge with social media?",
+    "What do you hope to achieve from your Social Media Session?": "What do you hope to achieve from your Social Media Session?",
+    "List 2-3 key business goals you are aiming for over the next 6-12 months:" : "List 2-3 key business goals you are aiming for over the next 6-12 months:",
+    "Is there anything else you'd like us to know?": "Is there anything else you'd like us to know?",
+    "Type here...": "Type here...",
+    "Website Link": "Website Link",
+    "Instagram Link": "Instagram Link",
+    "Type your phone number": "Type your phone number",
+    "Type your email": "Type your email",
+    "Type your name": "Type your name",
+
+    "Privacy Policy": "Privacy Policy",
+    "PR Last updated": "Last updated: August 3, 2023",
+    "Privacy Policy Text 1": "At Smart Club Women ('we', 'us', or 'our'), we respect and value the privacy of our members and visitors. This Privacy Policy describes how we collect, use, and disclose personal information for our Women Events Toronto club website ('Website') and related services (collectively, the 'Services').",
+    "Privacy Policy Text 2": "By using our Services, you agree to the collection and use of information as outlined in this Privacy Policy.",
+    
+    "PR List 1 Title": "Information Collection and Use",
+    "PR List Description 1": "We collect various types of information from our users for the following purposes:",
+    "PR List Description 1a": "Event Participation: When you sign up for and attend events organized by Smart Club Women, we may collect your name, contact information, and other relevant details to facilitate your participation in the event and for record-keeping purposes.",
+    "PR List Description 1b": "Communications: We may use your contact information to send you updates, newsletters, marketing materials, and other information related to our Services. You may opt-out of receiving promotional emails by following the unsubscribe instructions in the emails.",
+    
+    "PR List 2 Title": "Information Sharing and Disclosure",
+    "PR List Description 2": "We do not sell, rent, or otherwise share your personal information with third parties for their marketing purposes without your explicit consent. However, we may disclose your information in the following circumstances:",
+    "PR List Description 2a": "Service Providers: We may share your information with third-party service providers who perform services on our behalf, such as payment processing, web hosting, and email delivery.",
+    "PR List Description 2b": "Legal Requirements: We may disclose your information if required to do so by law or in response to a subpoena, court order, or other legal processes.",
+    "PR List Description 2c": "Business Transfers: In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred as part of the transaction.",
+    
+    "PR List 3 Title": "Security",
+    "PR List Description 3": "We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. However, no method of electronic transmission or storage is 100% secure. Therefore, while we strive to protect your personal information, we cannot guarantee its absolute security.",
+
+    "PR List 4 Title": "Third-Party Websites and Services",
+    "PR List Description 4": "Our Website may contain links to third-party websites or services that are not owned or controlled by us. We are not responsible for the privacy practices of such websites or services, and we encourage you to review their privacy policies before providing any personal information.",
+
+    "PR List 5 Title": "Children's Privacy",
+    "PR List Description 5": "Our Services are not intended for individuals under the age of 18. We do not knowingly collect personal information from children under 18. If you become aware that a child has provided us with personal information, please contact us, and we will take steps to remove such information from our records.",
+
+    "PR List 6 Title": "Changes to This Privacy Policy",
+    "PR List Description 6": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. Your continued use of our Services after any changes constitutes your acceptance of the updated Privacy Policy.",
+
+    "PR List 7 Title": "Contact Us",
+    "PR List Description 7": "If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:",
+
+    "Terms and Conditions": "Terms and Conditions",
+    "TC Last updated": "Last updated: August 3, 2023",
+
+    "TC Text 1": "Please read these Terms and Conditions ('Terms', 'Terms and Conditions') carefully before using the Smart Club Women website (the 'Service') operated by Smart Club Women ('us', 'we', or 'our').",
+    "TC Text 2": "Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users, and others who access or use the Service.",
+    "TC Text 3": "By accessing or using the Service, you agree to be bound by these Terms. If you disagree with any part of the Terms, you may not access the Service.",
+
+    "TC List 1 Title": "Events",
+    "TC List Description 1": "Smart Club Women organizes events primarily targeted towards women in the Toronto area. By participating in our events, you agree to follow any rules or guidelines provided by event organizers, and to conduct yourself in a respectful and safe manner.",
+
+    "TC List 2 Title": "Cancellation and Refunds",
+    "TC List Description 2": "Members may cancel their event registrations up to a certain number of days before the event, as specified in the event description. Refunds will be issued according to our refund policy, which will be clearly communicated for each event.",
+
+    "TC List 3 Title": "Intellectual Property",
+    "TC List Description 3": "The Service and its original content, features, and functionality are and will remain the exclusive property of Smart Club Women and it's licensors. The Service is protected by copyright, trademark, and other laws of both Canada and foreign countries. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of Smart Club Women.",
+
+    "TC List 4 Title": "Links to Other Websites",
+    "TC List Description 4": "Our Service may contain links to third-party websites or services that are not owned or controlled by Smart Club Women. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party websites or services. You further acknowledge and agree that Smart Club Women shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such websites or services.",
+
+    "TC List 5 Title": "Limitation of Liability",
+    "TC List Description 5": "In no event shall Smart Club Women, its directors, employees, partners, agents, suppliers, or affiliates be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses, resulting from (i) your access to or use of or inability to access or use the Service; (ii) any conduct or content of any third party on the Service; (iii) any content obtained from the Service; and (iv) unauthorized access, use, or alteration of your transmissions or content, whether based on warranty, contract, tort (including negligence), or any other legal theory, whether or not we have been informed of the possibility of such damage, and even if a remedy set forth herein is found to have failed its essential purpose.",
+
+    "TC List 6 Title": "Governing Law",
+    "TC List Description 6": "These Terms shall be governed and construed in accordance with the laws of Canada, without regard to its conflict of law provisions.",
+
+    "TC List 7 Title": "Changes",
+    "TC List Description 7": "We reserve the right to make changes to the Terms of our Service at our discretion.",
+
+    "TC List 8 Title": "Indemnification",
+    "TC List Description 8": "You agree to defend, indemnify, and hold harmless Smart Club Women, its directors, employees, partners, agents, suppliers, and affiliates from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees), resulting from or arising out of a) your use and access of the Service, or b) a breach of these Terms.",
+
+    "TC List 9 Title": "Contact Us",
+    "TC List Description 9": "If you have any questions about these Terms, please contact us at:",
+
+    "TC Text 4": "By using the Service, you agree to be bound by these Terms and Conditions.",
+
+    "Sponsors Page Heading": "Hello, Sponsor!",
+    "Sponsors Page Text 1": "Since 2021, we have welcomed over 250 women to our events.",
+    "Sponsors Page Text 2": "During this time, we have also collaborated with 20 companies and individuals who wanted to promote their services.",
+
+    "Btn Instagram Statistic" : "Instagram Statistic",
+    "Statistic": "Statistic",
+
+    "Collaborations": "Collaborations",
+
+    "Event 1 Title" : "White party on the sailing boat",
+    "Event 1 Text" : "Every summer, we hold a White Party on a 100 ft boat that takes us from downtown Toronto to the Islands. We combine sailing with a fun party atmosphere. Last year, we had a spectacular fashion show on the boat featuring the clothing brand Moon Rivers Fashion. Our guests were able to become models and showcase beautiful dresses. As a result, 10 dresses were sold on the spot, and thanks to the increased amount of followers on Instagram, their sales increased by 20%.",
+
+    "Event 2 Title": "Organizing party for the flamingo collective store",
+    "Event 2 Text": "There is a new gift store located in the Distillery District that is looking to increase its exposure. To help with this, we recently organized a fun Halloween party at the store. Our guests enjoyed the wide variety of gifts that were on display and had a great time. We shared a lot of Instagram stories about the store on our social media platforms and purchased some items ourselves.",
+
+    "Event 3 Title 1":"Woman's day celebration",
+    "Event 3 Title 2":"Main sponsor: Korean cosmetic brand Atomy",
+    "Event 3 Text": "We created a beautiful atmosphere in one of Atomy's offices for a promotional event. During the party, we showcased Atomy's SPA treatment on a model, and all the attendees were able to try the products and experience the benefits immediately. Atomy also provided useful gifts for everyone at the event. As a result of the event, interested people subscribed to Atomy's website and made purchases on the same day. Overall, the event was a success in terms of promoting Atomy's products and generating sales. By creating an engaging and positive atmosphere and offering demonstrations and giveaways, we were able to attract potential customers and encourage them to try out Atomy's offerings.",
+
+    "Testimonials": "Testimonials",
+
+    "Testimonial 1 Name": "Adella",
+    "Testimonial 1 Text": "Sweetheart, thank you so much for such an interesting and fun celebration for all the girls. From our Atomi product presentation, I've heard only good feedback, confidence in the quality, and a desire to try it out! Thank you to all the girls who signed up (currently 7 people) and even made a purchase already!",
+
+    "Testimonial 2 Name": "Marina",
+    "Testimonial 2 Text": "Overall, you're all amazing. Thank you for the ideas, pleasant time together, motivation, and positive attitude.",
+
+    "Testimonial 3 Name": "Anna",
+    "Testimonial 3 Text": "Darling, I'm very happy to have participated in your wonderful event! Around 7 people subscribed to the IG, there are good leads, and people have already come to the services. Thank you! And this is just a part of the package we 'put together' with you, miracles are already happening! I'm confident that it will only get better from here.Love and gratitude.",
+
+    "Testimonial 4 Name": "Anna",
+    "Testimonial 4 Text": "Sunshine, I've already had 18 people come to my IG from our campaign. Thank you, and I'll keep you informed about the interest and visits to Love It services!",
+
+    "Testimonial 5 Name": "Alena",
+    "Testimonial 5 Text": "I was actually thinking of writing to you yesterday to thank you for this opportunity to sponsor. Around 36-38, people subscribed. About 8-10 girls were interested in prices and asked for a price list. Some even thanked me for the dessert I made for your gathering, which was very nice. Three girls ordered pastries, one canceled the order yesterday for personal reasons, and one has already picked up the order. All the girls who messaged me were very pleasant, and I'm very happy about that.",
+
+    "Testimonial 6 Name": "Nika",
+    "Testimonial 6 Text": "Girls, thank you so much! I'm thrilled that all ten girls bought sets. And the atmosphere was simply magical, with such friendly and interesting girls. Can I already sign up for the next gathering?",
+
+    "Testimonial 7 Name": "Svetlana",
+    "Testimonial 7 Text": "Mila, the show was amazing! Thank you for the organization, it was top-notch. I couldn't even dream of such an experience. It was the best day of this year for me! I'm really looking forward to the photos from the boat.",
+
+    "Testimonial 8 Name": "Galerina",
+    "Testimonial 8 Text": "Thank you, I enjoyed everything. I liked Instagam Live, and the theme you suggested was very well received, and it gave me the idea of holding master classes where we can make mini trees and I could talk about money attraction techniques during the class. Valya and two other girls placed orders after my presentation at the monthly meeting.",
+
+    "Testimonial 9 Name": "Lana",
+    "Testimonial 9 Text": "Girls, I'm shocked... All the outfits were sold out. Thank you so much for the collaboration. It was awesome!",
+
+    "Testimonial 10 Name": "Inessa Koretsky",
+    "Testimonial 10 Text": "I want to thank Mila and her club for helping me promote my new business in the Canadian market. After working with Mila and the online interview, our sales and website traffic have increased a lot. on the day of advertising, our website was visited by more than 130 buyers. I got more from the club than I expected!!! Stay as you are!!!! Mila and Smart club are very helpful for the girls and their business. My stars are much higher than 5!!!!!",
+    "Testimonial 10 Company": "Le Cocon Beauty",
+
+    "Testimonial 11 Name": "Tanya Mihailenko",
+    "Testimonial 11 Text": "Beautiful Mila Thank you so much for a beautiful event you have created and for allowing me to participate in it. You have such an open, warm and pure heart. From the first moment I got to know you over the phone and spent hours talking till the moment we said goodbye after an event, I felt welcomed, taken care of and loved. The quality of the service you provide and the value of each of your group member is amazing, trustful and inspiring. Keep doing what you do with the same love and care I have experienced. I will highly recommend you to anyone who is interested in promoting their service/business or just for getting to know new people and expanding their friendship with soul like people with love and light!",
+    "Testimonial 11 Company": "Ame De Fleur Academy",
+
+
+    "Apply today": "Apply today",
+    "What kind of business do you have?": "What kind of business do you have?",
+    "How do you see cooperation with us?": "How do you see cooperation with us?",
+    "Follow us": "Follow us:",
+    "Rights": "Smart Club Women. All rights reserved. Web developed by"
+}

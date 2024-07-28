@@ -1,0 +1,11 @@
+@use '../../../app/styles/index.scss' as *;
+@use '../../../app/styles/media-queries.scss' as *;
+@use '../../../app/styles/vars.scss' as *;
+
+
+.mySlides{
+    display: none;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

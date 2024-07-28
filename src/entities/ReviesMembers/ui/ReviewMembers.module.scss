@@ -1,0 +1,70 @@
+@use '../../../app/styles/vars.scss' as *;
+@use '../../../app/styles/media-queries.scss' as *;
+@use '../../../app/styles/index.scss' as *;
+
+
+.section{
+    position: relative;
+}
+.reviewName {
+    margin: 20px 0 10px 0;
+}
+.reviewContainer {
+    text-align: center;
+    min-height: 400px;
+}
+.reviewButtons {
+    position: absolute;
+    top: 70%;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+
+    .reviewButton{
+        font-size: 22px;
+    }
+}
+.reviewItem {
+    display: none;
+    position: relative;
+    padding: 0 30px;
+}
+.activeReview {
+    display: block;
+}
+.star {
+    color: #ffcc00;
+    margin-bottom: 10px;
+    text-shadow: 0.3px 0.3px 0.3px rgba(40, 39, 39, 0.407);
+    margin: 2px;
+}
+
+@include tablet {
+    .reviewButtons {
+        left: 80px;
+        right: 80px;
+    }
+    .reviewContainer {
+        min-height: 200px;
+    }
+}
+
+@include laptop {
+    .reviewButtons {
+        left: 120px;
+        right: 120px;
+    }
+}
+@include desktop {
+    .reviewButtons {
+        left: 360px;
+        right: 360px;
+
+        .reviewButton{
+            font-size: 26px;
+        }
+    }
+}
+

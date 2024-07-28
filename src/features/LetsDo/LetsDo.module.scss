@@ -1,0 +1,19 @@
+@use '../../app/styles/index.scss' as *;
+@use '../../app/styles/media-queries.scss' as *;
+@use '../../app/styles/vars.scss' as *;
+
+
+.closeBtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.text{
+    text-align: center;
+}
+
+@include laptop{
+    .formModal{
+        padding: 50px;
+    }
+}

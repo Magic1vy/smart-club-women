@@ -1,0 +1,37 @@
+@use '../../../app/styles/vars.scss' as * ;
+@use '../../../app/styles/media-queries.scss' as * ;
+@use '../../../app/styles/index.scss' as *;
+
+.eventImg, .eventImg2, .eventImg3{
+    width: 100%;
+}
+.heading{
+    margin-bottom: 30px;
+}
+.container{
+    margin: 50px 0;
+}
+.subheading{
+    font-size: 30px;
+}
+
+@include laptop{
+    .imgContainer, .wrapper{
+        flex-direction: row;
+    }
+    .wrapperReverse{
+        flex-direction: row-reverse;
+    }
+    .eventImg{
+        max-height: 400px;
+        width: auto;
+    }
+    .eventImg2{
+        max-height: 550px;
+        width: auto;
+    }
+    .eventImg3{
+        width: 400px;
+        height: auto;
+    }
+}

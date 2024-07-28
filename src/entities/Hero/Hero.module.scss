@@ -1,0 +1,35 @@
+@use '../../app/styles/index.scss' as *;
+@use '../../app/styles/media-queries.scss' as *;
+@use '../../app/styles/vars.scss' as *;
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    min-height: 90vh;
+}
+.logo{
+    height: 150px;
+    margin-bottom: 50px; 
+}
+.heroHeading{
+    color: var(--black-color);
+    text-align: center;
+    font-family: var(--font-caveat);
+}
+.heroText{
+    font-family: var(--font-caveat);
+    text-align: center;
+}
+@include laptop{
+    .section{
+        flex-direction: row;
+    }
+    .heroHeading{
+        font-size: var(--font-size-xl);
+    }
+    .textWrapper{
+        min-width: 300px;
+    }
+}

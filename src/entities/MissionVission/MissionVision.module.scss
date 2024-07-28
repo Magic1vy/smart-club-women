@@ -1,0 +1,13 @@
+@use '../../app/styles/index.scss' as *;
+@use '../../app/styles/media-queries.scss' as *;
+@use '../../app/styles/vars.scss' as *;
+
+@include laptop{
+    .container{
+        flex-direction: row;
+
+        div{
+            width: 50%;
+        }
+    }
+}

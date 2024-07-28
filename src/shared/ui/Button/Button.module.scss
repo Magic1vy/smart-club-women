@@ -1,0 +1,30 @@
+@use '../../../app/styles/vars.scss' as *;
+
+.button{
+    background-color: transparent;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid var(--black-color);
+    color: var(--black-color);
+    width: 250px;
+    font-family: var(--font-poppins);
+    cursor: pointer;
+
+    &.navigation{
+        background-color: transparent;
+        color: var(--black-color);
+        border: none;
+        text-decoration: underline;
+        width: auto;
+        font-family: var(--font-caveat);
+
+    }
+    &.clear{
+        background-color: transparent;
+        color: var(--black-color);
+        font-size: 16px;
+        border: none;
+        width: auto;
+        padding: 0;
+    }
+}
