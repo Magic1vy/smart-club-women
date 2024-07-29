@@ -40,12 +40,12 @@ const SponsorsLine = () => {
               />
                 { sponsor.name2 ? (
                 <Stack justify='justifyCenter' align='alignCenter'>
-                  <Text>{sponsor.name}</Text> 
-                  <Text>{sponsor.name2}</Text>
+                  <Text className={styles.sponsorName}>{sponsor.name}</Text> 
+                  <Text className={styles.sponsorName}>{sponsor.name2}</Text>
                 </Stack> 
                 ):( 
                 <Stack justify='justifyCenter' align='alignCenter'>
-                  <Text>{sponsor.name}</Text> 
+                  <Text className={styles.sponsorName}>{sponsor.name}</Text> 
                 </Stack>
               )}
             </Stack>

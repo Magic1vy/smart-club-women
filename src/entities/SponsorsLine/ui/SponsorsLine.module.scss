@@ -11,17 +11,21 @@
 }
 .imageScrollContent{
     width: fit-content;
-    animation: scroll 50s linear infinite;
+    animation: scroll 140s linear infinite;
 }
 .imageScrollContent > * {
     margin: 7px;
-    flex: 0 0 auto;
+    // flex: 0 0 auto;
 }
 .sponsorImg {
     height: 100px;
-    width: 100%;
+    // width: 100%;
 }
-
+.imgSponsor{
+    .sponsorName{
+        font-size: 0.625rem;
+    }
+}
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -32,11 +36,18 @@
 }
 
 @include laptop{
+    // .imageScrollContent > * {
+    //     flex: 0 0 auto;
+    // }
     .imgSponsor{
         margin: 10px;
+        // width: 100%;
+            .sponsorName{
+                font-size: 0.85rem;
+            }
     }
     .sponsorImg{
         height: 140px;
-        width: 100%;
+        // width: 100%;
     }
 }
