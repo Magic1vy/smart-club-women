@@ -1,16 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import logo from '../../shared/assets/images/ScwNewLogo.png'
 import { Stack } from '../../shared/ui/Stack/Stack';
 import styles from './Hero.module.scss';
 import Text from '../../shared/ui/Text/Text';
 import { useTranslation } from 'react-i18next';
 import Slider from '../../features/Slider/ui/Slider';
-import Loader from '../../shared/ui/Loader/Loader';
 
 const Hero = () => {
     const { t } = useTranslation();
-    // eslint-disable-next-line
-    const [loading, isLoading] = useState(false);
+
     
     return (
         <section className={styles.section}>
@@ -40,7 +38,7 @@ const Hero = () => {
                     </Text>
                 </Stack>
             </Stack>
-            {loading? <Loader /> : <Slider /> }
+            <Slider /> 
         </section>
     )
 }

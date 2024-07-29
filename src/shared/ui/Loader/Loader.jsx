@@ -4,7 +4,7 @@ import { Stack } from '../Stack/Stack';
 
 const Loader = () => {
     return (
-        <Stack justify='justifyCenter' align='alignCenter'>
+        <Stack direction='row' justify='justifyCenter' align='alignCenter'>
             <div className={styles.spinner}></div>
         </Stack>
     );

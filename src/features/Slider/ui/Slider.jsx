@@ -4,8 +4,12 @@ import { data } from '../lib/data';
 import styles from './Slider.module.scss';
 import Button from '../../../shared/ui/Button/Button';
 import PhotoSlider from '../../../entities/PhotoSlider/PhotoSlider';
+import Loader from '../../../shared/ui/Loader/Loader';
 
 const Slider = () => {
+    // eslint-disable-next-line
+    const [loading, isLoading] = useState(false);
+
     const [slideIndex, setSlideIndex] = useState(0);
     const timeoutRef = useRef(null);
 
@@ -35,15 +39,22 @@ const Slider = () => {
     };
 
     return (
-        <section className={styles.slideshow}>
-            <PhotoSlider items={data} slideIndex={slideIndex} />
-            <Button className={styles.prevSlideshow} onClick={() => moveSlides(-1)}>
-                &#10094;
-            </Button>
-            <Button className={styles.nextSlideshow} onClick={() => moveSlides(1)}>
-                &#10095;
-            </Button>
-        </section>
+        <>
+            <section className={styles.slideshow}>
+            {loading? 
+                <Loader /> 
+                : 
+                <PhotoSlider items={data} slideIndex={slideIndex} />
+            }
+                <Button className={styles.prevSlideshow} onClick={() => moveSlides(-1)}>
+                    &#10094;
+                </Button>
+                <Button className={styles.nextSlideshow} onClick={() => moveSlides(1)}>
+                    &#10095;
+                </Button>
+            </section>
+        
+    </>
     );
 };
 

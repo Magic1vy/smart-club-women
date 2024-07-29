@@ -15,11 +15,9 @@
 }
 .imageScrollContent > * {
     margin: 7px;
-    // flex: 0 0 auto;
 }
 .sponsorImg {
     height: 100px;
-    // width: 100%;
 }
 .imgSponsor{
     .sponsorName{
@@ -36,18 +34,13 @@
 }
 
 @include laptop{
-    // .imageScrollContent > * {
-    //     flex: 0 0 auto;
-    // }
     .imgSponsor{
         margin: 10px;
-        // width: 100%;
             .sponsorName{
                 font-size: 0.85rem;
             }
     }
     .sponsorImg{
         height: 140px;
-        // width: 100%;
     }
 }
