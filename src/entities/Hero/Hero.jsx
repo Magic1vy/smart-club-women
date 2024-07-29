@@ -8,8 +8,9 @@ import Slider from '../../features/Slider/ui/Slider';
 
 const Hero = () => {
     const { t } = useTranslation();
+    // eslint-disable-next-line
     const [loading, isLoading] = useState(false);
-
+    
     return (
         <section className={styles.section}>
             <Stack 
