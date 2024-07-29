@@ -9,7 +9,7 @@ import sponsor9 from '../../../shared/assets/sponsors/webp/sponsor8.webp';
 import sponsor10 from '../../../shared/assets/sponsors/webp/sponsor9.webp';
 import sponsor11 from '../../../shared/assets/sponsors/webp/sponsor10.webp';
 import sponsor12 from '../../../shared/assets/sponsors/webp/sponsor11.webp';
-import sponsor13 from '../../../shared/assets/sponsors/webp/sponsor12.webp';
+import sponsor13 from '../../../shared/assets/sponsors/webp/sponsor12.jpeg';
 import sponsor14 from '../../../shared/assets/sponsors/webp/sponsor13.webp';
 import sponsor15 from '../../../shared/assets/sponsors/webp/kerl.webp';
 import sponsor16 from '../../../shared/assets/sponsors/webp/nagi.webp';
