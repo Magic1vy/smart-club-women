@@ -17,7 +17,7 @@ const InstagramStatisctics = ({ changeOpen }) => {
   return (
     <Stack>
       <Button
-        navigation
+        clear
         className={styles.closeBtn}
         onClick={handleCloseModal}
         aria-label="Close Modal Window"

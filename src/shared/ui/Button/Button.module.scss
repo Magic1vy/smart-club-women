@@ -2,7 +2,7 @@
 
 .button{
     background-color: transparent;
-    font-size: 20px;
+    font-size: var(--font-size-md);
     padding: 10px;
     border: 2px solid var(--black-color);
     color: var(--black-color);
@@ -14,9 +14,29 @@
         background-color: transparent;
         color: var(--black-color);
         border: none;
-        // text-decoration: underline;
+        font-size: var(--font-size-sm);
         width: auto;
-        font-family: var(--font-caveat);
+        position: relative;
+
+        .span {
+            position: relative;
+            display: inline-block;
+            
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -3px; 
+                left: 0;
+                width: 0%;
+                height: 1px; 
+                background-color: var(--black-color);
+                transition: width .7s ease;
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
+        }
 
     }
     &.clear{

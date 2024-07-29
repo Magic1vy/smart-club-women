@@ -16,7 +16,7 @@ const Button = ({ text, children, onClick, active, navigation, clear, className 
             className={getStyle(styles.button, mode, additional, [])}
             onClick={onClick}
         >
-            {text || children}
+            <span className={styles.span}>{text || children}</span>
         </button>
     )
 }
