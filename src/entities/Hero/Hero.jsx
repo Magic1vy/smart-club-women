@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../shared/assets/images/ScwNewLogo.png'
 import { Stack } from '../../shared/ui/Stack/Stack';
 import styles from './Hero.module.scss';
@@ -8,6 +8,7 @@ import Slider from '../../features/Slider/ui/Slider';
 
 const Hero = () => {
     const { t } = useTranslation();
+    const [loading, isLoading] = useState(false);
 
     return (
         <section className={styles.section}>
@@ -37,7 +38,7 @@ const Hero = () => {
                     </Text>
                 </Stack>
             </Stack>
-            <Slider />
+            {isLoading? <Slider /> : <div> Loading ... </div>}
         </section>
     )
 }
