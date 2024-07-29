@@ -6,8 +6,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 250px;
+    width: 100%;
     margin: auto;
+    
+    .btn{
+        margin: auto;
+    }
 }
 
 .text{
@@ -17,5 +21,8 @@
 @include laptop{
     .section{
         align-items: center;
+    }
+    .form{
+        max-width: 250px;
     }
 }
