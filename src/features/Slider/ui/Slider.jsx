@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { data } from '../lib/data';
 import styles from './Slider.module.scss';
 import Button from '../../../shared/ui/Button/Button';
-import PhotoSlider from '../../../entities/PhotoSlider/ui/PhotoSlider';
+import PhotoSlider from '../../../entities/PhotoSlider/PhotoSlider';
 
 const Slider = () => {
     const [slideIndex, setSlideIndex] = useState(0);

@@ -23,7 +23,7 @@
     transform: translateY(-50%);
 
     .reviewButton{
-        font-size: 22px;
+        font-size: var(--review-btn);
     }
 }
 .reviewItem {
@@ -56,6 +56,9 @@
         left: 120px;
         right: 120px;
     }
+    .reviewText{
+        font-size: var(--font-size-sm);
+    }
 }
 @include desktop {
     .reviewButtons {
@@ -63,7 +66,7 @@
         right: 360px;
 
         .reviewButton{
-            font-size: 26px;
+            font-size: var(--review-btn-lg);
         }
     }
 }

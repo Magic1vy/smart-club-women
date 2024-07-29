@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 
-// Хук для очистки полей формы
 const useFormReset = () => {
     const fieldsRef = useRef({});
 

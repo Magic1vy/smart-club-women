@@ -3,7 +3,7 @@
 @use '../../../app/styles/vars.scss' as *;
 
 .footer{
-    border-top: 1px solid #000000;
+    border-top: 1px solid var(--black-color);
 }
 .logo{
     height: 100px;
@@ -17,9 +17,9 @@
 }
 .rights{
     text-align: center;
-    font-size: 14px;
+    font-size: 0,875;
     padding: 20px;
-    border-top: 1px solid #000000;
+    border-top: 1px solid var(--black-color);
 }
 @include tablet{
     .footerContainer{

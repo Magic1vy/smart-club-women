@@ -18,7 +18,7 @@ function ContactFormSponsors() {
     }, [state.succeeded]);
 
     return (
-        <Stack align='alignCenter' className={styles.section}>
+        <Stack className={styles.section}>
             <Text 
                 type='h2'
                 size='lg'

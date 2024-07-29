@@ -1,5 +1,4 @@
 import React from 'react';
-// import founderImageWebp from '../../shared/assets/images/webp/about.webp';
 import founderImage from '../../shared/assets/images/Mila-Bogorodovskaya.jpeg';
 import { Stack } from '../../shared/ui/Stack/Stack';
 import styles from './Founder.module.scss';
@@ -26,7 +25,6 @@ const Founder = () => {
                     {t('Meet Founder')}
                 </Text>
                 <picture className={styles.mobile}>
-                {/* <source srcSet={aboutImageWebp} type="image/webp" /> */}
                 <img 
                     src={founderImage} 
                     alt="" 
@@ -40,20 +38,18 @@ const Founder = () => {
                     <strong>{t('Mila Bogorodovskaya')}</strong>
                 </Text>
                 <Text className={styles.text}>
-                    {t('Founder Text 1')}
+                    {t('Founder Text 1')} {""}
                     <a 
                         href="https://www.instagram.com/reel/C72PPTlONwr/?igsh=ZnR5dDVjYzJkY2Vp" 
                         target="_blank" 
                         rel="noreferrer"
-                        className={styles.link}
                     >
                         Smart Life SMM  
                     </a>
-                    {t('Founder Text 2')}
+                    {""} {t('Founder Text 2')}
                 </Text>
             </Stack>
             <picture  className={styles.desktop}>
-                {/* <source srcSet={aboutImageWebp} type="image/webp" /> */}
                 <img 
                     src={founderImage} 
                     alt="" 

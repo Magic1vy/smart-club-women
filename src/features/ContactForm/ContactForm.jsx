@@ -20,7 +20,6 @@ function ContactForm() {
     return (
         <section id='contacts'>
             <Stack 
-                align='alignCenter' 
                 className={styles.section}
             >
                 <Text 

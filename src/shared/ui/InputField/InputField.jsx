@@ -6,7 +6,7 @@ import { Stack } from '../Stack/Stack';
 const InputField = ({ id, label, type, name, required, placeholder, state }) => {
     return (
         <Stack direction='column'>
-            {/* <label htmlFor={id}>{label}</label> */}
+            <label htmlFor={id}>{label}</label>
             <input
                 id={id}
                 type={type}

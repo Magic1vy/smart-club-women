@@ -37,7 +37,7 @@ const Footer = () => {
                         </Link>
                         <Stack justify='justifyBetween' gap='10'>
                             <Link to="/privacy-policy">
-                                <Button clear>
+                                <Button clear >
                                     {t('Privacy Policy')}
                                 </Button>
                             </Link>

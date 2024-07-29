@@ -12,7 +12,7 @@
     margin: 50px 0;
 }
 .subheading{
-    font-size: 30px;
+    font-size: var(--font-size-l-md);
 }
 
 @include laptop{

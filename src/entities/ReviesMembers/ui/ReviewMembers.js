@@ -33,10 +33,10 @@ const ReviewsMembers = () => {
                     className={`${styles.reviewItem} ${i === activeIndex ? styles.activeReview : styles.hiddenReview}`} 
                 >
                     <Stack 
-                    direction='column' 
-                    className={styles.reviewContainer} 
-                    justify='justifyCenter' 
-                    gap='10'
+                        direction='column' 
+                        className={styles.reviewContainer} 
+                        justify='justifyCenter' 
+                        gap='10'
                     >
                     <Text type='h3'>
                         {t(review.name)}

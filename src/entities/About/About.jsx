@@ -29,7 +29,7 @@ const About = () => {
                     {t('About 1')}
                 </Text>
                 <Text className={styles.text}>
-                    {t('About 2')}
+                    {t('About 2')}  {""}
                     <a 
                         href="https://www.instagram.com/smartclub_women/" 
                         target="_blank" 
@@ -38,7 +38,7 @@ const About = () => {
                     >
                         Instagram 
                     </a>
-                    {t('About 3')}
+                    {""} {t('About 3')}
                 </Text>
             </Stack>
             <picture className={styles.picture}>

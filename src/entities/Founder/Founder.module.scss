@@ -5,9 +5,6 @@
 .founderImage{
     width: 100%;
 }
-.link{
-    margin: 0 4px;
-}
 @include laptop {
     .container{
         flex-direction: row;

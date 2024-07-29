@@ -5,9 +5,6 @@
 .aboutImage{
     width: 100%;
 }
-.link{
-    margin: 0 4px;
-}
 
 @include laptop {
     .container{
@@ -16,5 +13,8 @@
     }
     .picture{
         max-width: 600px;
+    }
+    .text{
+        font-size: var(--font-size-sm);
     }
 }

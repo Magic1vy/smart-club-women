@@ -7,8 +7,15 @@
     flex-direction: column;
     justify-content: center;
     max-width: 250px;
+    margin: auto;
 }
 
 .text{
     text-align: center;
+}
+
+@include laptop{
+    .section{
+        align-items: center;
+    }
 }

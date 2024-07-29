@@ -12,64 +12,64 @@ import useOverflowHidden from '../../../shared/hooks/useOverflowHidden';
 import Modal from '../../../shared/ui/Modal/Modal';
 
 const Services = () => {
-  const { t } = useTranslation();
+    const { t } = useTranslation();
 
-  const { isOpen, changeOpen } = useModal();
-  useOverflowHidden(isOpen);
+    const { isOpen, changeOpen } = useModal();
+    useOverflowHidden(isOpen);
 
-  const handleOpenModal = () => {
-      changeOpen();
-  };
+    const handleOpenModal = () => {
+        changeOpen();
+    };
 
-  return (
-    <section id='services' className={styles.section}>
-      <Stack>
-      <Text 
-        type='h2'
-        className={styles.subheading}
-        size='lg'
-      >
-            {t("Our Services")}
-          </Text>
+    return (
+        <section id='services' className={styles.section}>
         <Stack>
-          <Text className={styles.text}>
-            {t('Services Text')}
-          </Text>
-          <ul className={styles.list}>
-            {data.map((list, index) => (
-              <Text 
-                key={index}
-                type='li' 
-                className={styles.text}
-              >
-                {t(list)}
-              </Text>
-            ))}
-          </ul>
-          <Text className={styles.text}>
-            {t('Services CTA')}
-          </Text>
+        <Text 
+            type='h2'
+            className={styles.subheading}
+            size='lg'
+        >
+                {t("Our Services")}
+            </Text>
+            <Stack>
+            <Text className={styles.text}>
+                {t('Services Text')}
+            </Text>
+            <ul className={styles.list}>
+                {data.map((list, index) => (
+                <Text 
+                    key={index}
+                    type='li' 
+                    className={styles.text}
+                >
+                    {t(list)}
+                </Text>
+                ))}
+            </ul>
+            <Text className={styles.text}>
+                {t('Services CTA')}
+            </Text>
 
+            </Stack>
+        <Button className={styles.btn} onClick={handleOpenModal}>
+            {t('Services Btn')}
+        </Button>
         </Stack>
-      <Button className={styles.btn} onClick={handleOpenModal}>
-        {t('Services Btn')}
-      </Button>
-      </Stack>
-      <img 
-        src={imgService} 
-        alt="Smart Club Women Services" 
-        className={styles.imgService}
-        width='auto' 
-        height='auto' 
-      />
+        <img 
+            src={imgService} 
+            alt="Smart Club Women Services" 
+            className={styles.imgService}
+            width='auto' 
+            height='auto' 
+        />
 
-      {isOpen && (
-        <Modal changeOpen={changeOpen}>
-            <LetsDo changeOpen={changeOpen} />
-        </Modal>
-    )}
-    </section>
-  )
+        {isOpen && (
+            <Modal changeOpen={changeOpen}>
+                <LetsDo changeOpen={changeOpen} />
+            </Modal>
+        )}
+        </section>
+    )
 }
 
 export default Services;
