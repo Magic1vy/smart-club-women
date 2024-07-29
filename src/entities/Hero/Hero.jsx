@@ -5,6 +5,7 @@ import styles from './Hero.module.scss';
 import Text from '../../shared/ui/Text/Text';
 import { useTranslation } from 'react-i18next';
 import Slider from '../../features/Slider/ui/Slider';
+import Loader from '../../shared/ui/Loader/Loader';
 
 const Hero = () => {
     const { t } = useTranslation();
@@ -39,7 +40,7 @@ const Hero = () => {
                     </Text>
                 </Stack>
             </Stack>
-            {loading? <div> Loading ... </div> : <Slider /> }
+            {loading? <Loader /> : <Slider /> }
         </section>
     )
 }
