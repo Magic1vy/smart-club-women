@@ -39,7 +39,7 @@ const Hero = () => {
                     </Text>
                 </Stack>
             </Stack>
-            {loading? <Slider /> : <div> Loading ... </div>}
+            {loading? <div> Loading ... </div> : <Slider /> }
         </section>
     )
 }
