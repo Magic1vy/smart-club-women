@@ -49,7 +49,7 @@ const NavbarMobile = () => {
                             </HashLink>
                         </li>
                     ))}
-                    <LangSwitcher />
+                    <LangSwitcher onLanguageChange={closeMenu} />
                 </ul>
             )}
         </nav>

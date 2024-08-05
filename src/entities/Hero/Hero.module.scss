@@ -5,13 +5,13 @@
 .section{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
-    min-height: 60vh;
+    // margin-bottom: 80px;
+    min-height: 80vh;
 }
 .logo{
     height: 150px;
-    margin-bottom: 50px; 
 }
 .heroHeading{
     color: var(--black-color);
@@ -25,11 +25,15 @@
 @include laptop{
     .section{
         flex-direction: row;
+        justify-content: space-between;
     }
     .heroHeading{
         font-size: var(--font-size-xl);
     }
     .textWrapper{
         min-width: 300px;
+    }
+    .logo{
+        margin-bottom: 30px; 
     }
 }

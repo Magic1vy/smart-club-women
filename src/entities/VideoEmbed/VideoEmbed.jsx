@@ -10,8 +10,8 @@ const VideoEmbed = () => {
             url="https://youtu.be/Y0UH4deDa8I?si=NYZ6AdQ4mEMnxqGf" 
             controls
             title="YouTube video player" 
-            frameborder="0" 
-            allowfullscreen
+            frameBorder="0" 
+            allowFullScreen
         />
     </Stack>
     );

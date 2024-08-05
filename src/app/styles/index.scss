@@ -9,7 +9,7 @@ body{
 
 .section{
     padding: var(--padding-mobile);
-    margin: 80px 0;
+    margin: 30px 0;
 }
 .sectionRights{
     padding: var(--padding-mobile);
@@ -61,7 +61,6 @@ body{
 @include laptop {
     .section{
         padding: var(--padding-laptop);
-        margin: 150px 0;
     }
     .sectionRights{
         padding: var(--padding-laptop);
