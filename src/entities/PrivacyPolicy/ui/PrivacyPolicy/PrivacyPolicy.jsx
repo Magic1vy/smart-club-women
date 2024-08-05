@@ -40,11 +40,11 @@ const PrivacyPolicy = () => {
           list={item.list.map(list => t(list))} 
           />
       ))}
-      <Text>
+      <Text className={styles.text}>
         Smart Club Women <br />
-        Email: 
+        Email:  
         <a href="mailto:smartclubcanada@gmail.com">
-          smartclubcanada@gmail.com
+            smartclubcanada@gmail.com
         </a>
       </Text>
     </section>
