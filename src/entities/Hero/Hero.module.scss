@@ -8,7 +8,7 @@
     justify-content: center;
     gap: 30px;
     // margin-bottom: 80px;
-    min-height: 80vh;
+    min-height: 90vh;
 }
 .logo{
     height: 150px;
@@ -26,6 +26,7 @@
     .section{
         flex-direction: row;
         justify-content: space-between;
+        min-height: 90vh;
     }
     .heroHeading{
         font-size: var(--font-size-xl);
